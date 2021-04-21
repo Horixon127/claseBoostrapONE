@@ -32,11 +32,47 @@
             <a class="nav-link" href="#./index.html">Inicio</a>
             <a class="nav-link" href="#./Alertas.html">Alertas</a>
             <a class="nav-link" href="#./Botones.html">Botones</a>
-            <a class="nav-link" href="#./Tarjetas.html">Tarjetas</a>
+            <a class="nav-link active" href="#./Tarjetas.html">Tarjetas</a>
             
-        </div>
-      </div>
+        
     </nav>
+
+     <!-- Formulario -->
+    <div class="d-flex justify-content-center">
+      <div class="col-md-5 border p-5 my-5">
+      <form>
+        <div class="form-group">
+          <label for="user">Nombre de usuario</label> 
+          <input  type="text" class="form-control" id="userId" aria-describedby="userHelp">
+          <small id="userHelp" class="form.text text-muted"> Escribe tu nombre de usuario sin espacios</small> 
+
+        </div>
+        <div class="form-group">
+          <label for="userId">Numero de identificacion</label> 
+          <input required type="text" class="form-control" id="userId" aria-describedby="IdHelp">
+          <small id="IdlHelp" class="form.text text-muted"> Escribe tu numero de identificacion</small> 
+
+          <div class="form-group">
+            <label for="email">Correo Electronico</label> 
+            <input required type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form.text text-muted"> Escribe tu direccion de correo Electronico</small> 
+  
+          <div class="form-group">
+              <label for="passwd">Contraseña</label> 
+              <input required type="password" class="form-control" id="passwd" aria-describedby="passwdHelp">
+              <small id="passwdHelp" class="form.text text-muted"> Escribe tu nombre de usuario sin espacios</small> 
+          
+        <div class="form-group">
+                <label for="passwdConfirm">Confirmar Contraseña</label> 
+                <input required type="password" class="form-control" id="passwdConfirm" aria-describedby="passwdConfirmHelp">
+                <small id="passwdConfirmHelp" class="form.text text-muted">Confirmar tu Contraseña</small> 
+         </div>
+         <button type="submit" class="btn btn-primary btn-block">Registrarme</button>
+            </form>
+          </div>
+      </form>
+
+</div>
     
 
     <!-- Bst component -->
